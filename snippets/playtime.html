@@ -183,6 +183,17 @@ for (var idx = 2; idx <= 10; idx++) {
 for (var idx = 2; idx <= 10; idx++) {
 	make_legend({ target: d.querySelector("#result_equal"), players: idx, tracks: 3*4*4 })
 }
+</script>
+<br>
+<br>
+<br>
+<hr>
+По заявкам радиозрителей: на три часа.
+<p id="result_3hours"></p>
+<script>
+for (var idx = 2; idx <= 10; idx++) {
+	make_legend({ target: d.querySelector("#result_3hours"), players: idx, tracks: 60 /* minutes */ / 2 /* minutes per track */ * 3 /* hours */ })
+}
 
 </script>
 
